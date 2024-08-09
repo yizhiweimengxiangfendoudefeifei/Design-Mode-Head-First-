@@ -2,6 +2,9 @@
 #include "mallard_duck.h"
 #include "model_duck.h"
 
+void func(int& x) {
+
+}
 int main() {
     MallardDuck mallard_duck;
     mallard_duck.Display();
